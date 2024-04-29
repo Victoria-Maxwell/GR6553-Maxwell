@@ -308,7 +308,7 @@ import datetime
 drop_time = datetime.datetime(2020,6,3,12,45)
 #plot the dropsonde
 dropsondes_obj.plot_skewt(time=drop_time)
-### FOR SOME REASON I CANNOT GET IT TO SAVE AS A PNG, IT SHOWS UP BLANK
+### FOR SOME REASON I CANNOT GET IT TO SAVE AS A PNG, IT SHOWS UP BLANK, IF USING SPYDER IT WILL PLOT IN THE KERNEL AND CAN BE SAVED FROM THERE
 #plt.savefig('June 3 Dropsonde 1245.png')
 #plt.show()
 #plt.close()
